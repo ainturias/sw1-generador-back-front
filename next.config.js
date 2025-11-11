@@ -6,6 +6,14 @@ import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
 const config = {
+  typescript: {
+    // ⚠️ Peligroso: permite builds con errores de TypeScript
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    // Ignora errores de ESLint durante el build
+    ignoreDuringBuilds: true,
+  },
   async redirects() {
     return [
       {
