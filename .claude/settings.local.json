@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(rm:*)",
+      "Bash(ls -la \"f:\\JHOEL\\SEMESTRE 2-2025\\PASADO\\SW1\\examen1-FINAL\\figma-clone\\src\\generated_examples\"\" 2>/dev/null || echo \"Directory does not exist \")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
